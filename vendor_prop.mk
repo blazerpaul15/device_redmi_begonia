@@ -428,6 +428,12 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
+# Color Modes
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.sf.color_saturation=1.1 \
+    persist.sys.sf.color_mode=9 \
+    persist.sys.sf.native_mode=2
+
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
