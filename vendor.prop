@@ -220,6 +220,3 @@ ro.vendor.wifi.sap.interface=ap0
 ro.vendor.wlan.gen=gen4m
 ro.vendor.mtk_wfd_support=1
 wifi.concurrent.interface=
-
-# Zygote preforking
-persist.device_config.runtime_native.usap_pool_enabled=true
