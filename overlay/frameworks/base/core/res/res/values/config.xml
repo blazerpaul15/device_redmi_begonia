@@ -534,4 +534,8 @@
         <item>com.google.android.gms/.chimera.GmsIntentOperationService</item>
     </string-array>
 
+    <!-- List of comma separated package names for which we the system will not show crash like
+         tts, etc. dialogs. -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
 </resources>
