@@ -379,9 +379,8 @@
     <dimen name="status_bar_height_portrait">78.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
 
-    <!-- Rounded corner padding and radius -->
-    <dimen name="rounded_corner_radius_top">95.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">50.0px</dimen>
 
     <!-- Haptic -->
     <integer-array name="config_longPressVibePattern">
