@@ -1,0 +1,8 @@
+android_app_import {
+    apk: "TeracubeCamera.apk",
+    name: "TeracubeCamera",
+    overrides: ["Camera", "Camera2", "GrapheneCamera"],
+    presigned: true,
+    product_specific: true,
+    optional_uses_libs: ["androidx.camera.extensions.impl"],
+}

@@ -4,6 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Apps
+PRODUCT_PACKAGES += \
+    ScreenRecorder \
+    TeracubeCamera
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
@@ -310,10 +315,6 @@ PRODUCT_PACKAGES += \
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
-
-# Screen Recorder
-PRODUCT_PACKAGES += \
-    ScreenRecorder
 
 # Seccomp
 PRODUCT_COPY_FILES += \

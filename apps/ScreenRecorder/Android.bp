@@ -1,0 +1,6 @@
+android_app_import {
+    apk: "ScreenRecorder.apk",
+    name: "ScreenRecorder",
+    presigned: true,
+    product_specific: true,
+}
